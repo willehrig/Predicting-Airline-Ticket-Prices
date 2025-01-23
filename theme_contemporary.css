@@ -110,7 +110,21 @@ table.reportTable td {
   name: Total;
 }
 
-.total[name: "Grand Total"] {
+.subtotal {
+  visibility: hidden;
+   
+}
+
+.subtotal:after {
+  content:'Total'
+  visibility: visible;
+  font-style: italic;
+  font-weight: bold;
+  background: #D3D3D3;
+
+}
+
+.total {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
 }
