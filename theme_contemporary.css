@@ -107,13 +107,13 @@ table.reportTable td {
   font-style: italic;
   font-weight: bold;
   background: #D3D3D3;
-  name: "Total";
+  name: Total;
 }
 
 .total {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
-  name: "Grand Total";
+  name: Grand Total;
 }
 
 .total.transposed {
