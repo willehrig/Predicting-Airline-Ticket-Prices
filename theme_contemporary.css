@@ -104,25 +104,13 @@ table.reportTable td {
 }
 
 .subtotal {
+  title: 'Total';
   font-style: italic;
   font-weight: bold;
   background: #D3D3D3;
  
 }
 
-.subtotal {
-  visibility: hidden;
-   
-}
-
-.subtotal:after {
-  title:'Total';
-  visibility: visible;
-  font-style: italic;
-  font-weight: bold;
-  background: #D3D3D3;
-
-}
 
 .total {
   border-top: 2px solid #000000 !important;
