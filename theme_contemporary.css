@@ -116,7 +116,7 @@ table.reportTable td {
 }
 
 .subtotal:after {
-  content:'Total';
+  name:'Total';
   visibility: visible;
   font-style: italic;
   font-weight: bold;
