@@ -103,13 +103,13 @@ table.reportTable td {
   padding-left: 15px !important;
 }
 
-.subtotal {
+.subtotal[name="Total"] {
   font-style: italic;
   font-weight: bold;
   background: #D3D3D3;
 }
 
-.total {
+.total[name="Grand Total"] {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
 }
